@@ -1,0 +1,387 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #36226f;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f2622c;
+}
+
+.banner {
+    background-image: url(../images/ligthning.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.height {
+    min-height: 90vh;
+}
+
+.icon {
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    bottom: 50px;
+    font-size: 20px;
+    transform: translateX(-50px);
+    animation: ani 1s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ani {
+    0% {
+        bottom: 60px;
+    }
+
+    100% {
+        bottom: 40px;
+    }
+}
+
+.Who-We-Are {
+    padding: 100px 0;
+
+}
+
+.Who-We-Are span {
+    display: block;
+    background-color: #e76128;
+    height: 3px;
+    width: 0px;
+    margin-top: 80px;
+    transition: .4s all ease-in-out;
+}
+
+.Who-We-Are:hover span {
+    width: 50px;
+}
+
+.Who-We-Are h1 {
+    color: rgb(51, 65, 124);
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.Who-We-Are p {
+    color: rgb(186, 181, 178);
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.What-We-Do {
+    padding: 50px 0;
+    background-image: url(../images/shado.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-color: #f7f8f8;
+    background-position: right bottom;
+}
+
+.heading {}
+
+.heading span {
+    display: block;
+    background-color: #e76128;
+    height: 3px;
+    width: 50px;
+    margin: auto;
+    transition: .4s all ease-in-out;
+}
+
+
+.heading h1 {
+    color: rgb(51, 65, 124);
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding-bottom: 50px;
+}
+
+.What-We-Do-item {
+    position: relative;
+
+}
+
+.What-We-Do-item img {
+    width: 100%;
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.content h2 {
+    font-size: 25px;
+
+}
+
+.arrow {
+    position: absolute;
+    margin-top: 100px;
+    font-size: 20px;
+
+}
+
+.What-We-Do-item:hover .content {
+    opacity: 1;
+    left: 50%;
+}
+
+.What-We-Do-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    transition: .4s all ease-in-out;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7abcff+0,3c2175+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(122, 188, 255, 0) 0%, rgba(60, 33, 117, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(122, 188, 255, 0) 0%, rgba(60, 33, 117, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(122, 188, 255, 0) 0%, rgba(60, 33, 117, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007abcff', endColorstr='#3c2175', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.What-We-Do-item:hover::before {
+    height: 100%;
+}
+
+.attorney {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 0;
+    margin: 50px 0;
+}
+
+.attorney::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #36226f91;
+    z-index: -1;
+}
+
+.heading-two {
+
+    margin-top: 200px;
+}
+
+.heading-two span {
+    display: block;
+    background-color: #e76128;
+    height: 3px;
+    width: 50px;
+    transition: .4s all ease-in-out;
+}
+
+.heading-two h1 {
+
+    color: #fff;
+}
+
+.heading-two p {
+
+    color: #fff;
+}
+
+.heading-two a {
+    color: #e76128;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.attorney-item {
+    position: relative;
+}
+
+.attorney-item img {}
+
+.attorney-content {
+    left: 50px;
+    position: absolute;
+    bottom: 45px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.attorney-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    transition: .4s all ease-in-out;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7abcff+0,3c2175+100&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(122, 188, 255, 0) 0%, rgba(60, 33, 117, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(122, 188, 255, 0) 0%, rgba(60, 33, 117, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(122, 188, 255, 0) 0%, rgba(60, 33, 117, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007abcff', endColorstr='#3c2175', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.attorney-item:hover::before {
+    height: 100%;
+}
+
+.attorney-content h2 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.attorney-item:hover .attorney-content {
+    opacity: 1;
+    bottom: 50px;
+}
+
+.feature {}
+
+.heading-3 {}
+
+.heading-3 span {
+    display: block;
+    background-color: #e76128;
+    height: 3px;
+    width: 50px;
+    margin: auto;
+    transition: .4s all ease-in-out;
+    margin-bottom: 10px;
+}
+
+.heading-3 h1 {
+    color: #36226f;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+
+.heading-4 {}
+
+.heading-4 h2 {
+    color: #36226f;
+    font-size: 30px;
+}
+
+.heading-4 p {
+    color: #beb9b6;
+}
+
+.heading-4 a {
+    color: #e76128;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px 0;
+    padding-bottom: 90px;
+}
+
+.contact {
+    background-color: #36226f;
+    padding: 50px 0;
+    margin-top: 60px;
+}
+
+.contact .heading h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.form {}
+
+.form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid slategrey;
+    color: #f7f8f8;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border: none;
+    outline: none;
+    border-color: #666;
+    background-color: transparent;
+    color: #fff;
+}
+
+.form textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(93, 104, 115);
+    color: #fff;
+
+}
+
+.form input[type="submit"] {
+    background-color: #e76128;
+    color: #fff;
+    border: none;
+    padding: 10px 60px;
+    margin-top: 10px;
+
+}
+
+.footer {}
+
+.game {
+    padding: 20px 0;
+    background-color: #16102b;
+}
+
+.game p {
+
+    font-size: 13px;
+    color: slategray;
+}
+
+.foot ul {
+
+    list-style: none;
+}
+
+.foot ul li {
+
+}
+
+.foot ul li a {
+    margin-left: 15px;
+    color: #beb9b6;
+}
